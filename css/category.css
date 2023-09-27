@@ -1,0 +1,435 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Syne', sans-serif;
+}
+
+/*
+Extra bold 48 Titulo Saludos.
+bold 36,28,18,16 Titulo Personal info y need help
+semibold 22,18,16 
+medium 19,18 
+regular 17,16 
+*/
+
+/*Edicciones generales*/
+h1 {
+    font-weight: 800;
+    font-size: 3em; /*48px*/
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: 600 bold;
+    font-size: 1.375em; /*22px*/
+    text-transform: uppercase;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 1.188em; /*19px*/
+    text-transform: uppercase;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.063em; /*17px*/
+}
+
+a {
+    font-size: 400;
+    font-size: 1em; /*16px*/
+    color: #000;
+}
+
+hr {
+    color: #c6c6c6;
+}
+
+
+.alert{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 0;
+}
+
+.colorSpecial {
+    color: #c6c6c6;
+}
+
+.logo img{
+    height: 100px;
+}
+
+.phoneHeader{
+    display: none;
+}
+
+.shop{
+    display: none;
+}
+
+.btnCategoryTwo {
+    display: none;
+}
+/*fin de edicciones generales*/
+
+/*ediccion header*/
+.containerHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.logoHeader{
+    display: flex;
+    align-items: center;
+}
+
+.logoHeader img {
+    height: 100px;
+}
+
+.logoHeader p {
+    font-weight: 600;
+}
+
+.menuHeader{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.searchInput{
+    display: none;
+}
+
+.searchBtn {
+    min-width: 130px;
+    height: 40px;
+    color: #1a1a1a;
+    padding: 4px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #2a2a2a;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.searchIcon{
+    font-size: 0.9rem;
+}
+
+.menu button{
+    padding: 3px 10px;
+    background-color: transparent;
+    border: 2px solid #3a3a3a;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.menuIcon{
+    font-size: 1.5rem;
+    color: #3a3a3a;
+}
+/*fin de la ediccion header*/
+
+/*Ediccion de la seccion inicio*/
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.infoPersonal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-transform: uppercase;
+}
+
+.title{
+    display: none;
+}
+
+.colorSpecial {
+    color: #c6c6c6;
+}
+
+.usernameTitle{
+    padding: 30px 0;
+    /*BUSCAR LA EDICCION DE ESTA PARTE*/
+}
+
+.titleSpecial {
+    -webkit-text-stroke: 2px #000;
+    color: transparent;
+}
+
+.headerImg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.btnCategoryOne{
+    min-width: 130px;
+    height: 40px;
+    color: #1a1a1a;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 4px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #2a2a2a;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+/*fin de la ediccion de inicio*/
+
+/*ediccion de la seccion de los productos*/
+
+
+/*ARREGLAR LOS CONTENEDORES DE LOS
+PRODUCTOS PARA QUE SEA UN CONTENEDOR
+DE 2 PRODUCTOS*/
+.productOne{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.productTwo{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+}
+
+.containerSmallProduct{
+    display: flex;
+    flex-direction: column;
+}
+
+.smallProductOne{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.smallProductTwo{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.smallPOne img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.infoSmallP{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.categoryProduct p {
+    color: #c6c6c6;
+}
+
+.containerBigProduct{
+    display: flex;
+    flex-direction: column;
+}
+
+.containerBigProduct img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+/*
+.promotion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #2c337b;
+    height: 50vh;
+}
+
+.titlePromotion {
+    background-color: #f795bc;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+*/
+
+.containerCounter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.counter{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+
+}
+
+.pageCounter p {
+    font-size: 1.3em;
+}
+
+.backNumber{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.arrowCounter{
+    font-size: 1.4em;
+}
+
+.ofNumber{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+/*Edicion del foooter*/
+
+.containerFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.infoFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo p {
+    font-weight: 600;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.derechos {
+    display: none;
+}
+
+.btnFooter button{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 1.188em;
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.lineaFooter {
+    color: #c6c6c6;
+    width: 100%;
+}
+
+.linksFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    gap: 0.8rem;
+    padding: 15px 0;
+}
+
+.lFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.linksFooter a {
+    position: relative;
+    text-decoration: none;
+}
+  
+.linksFooter a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    border-radius: 4px;
+    background-color: #000;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+  
+.linksFooter a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.lineaFooterFinal{
+    width: 100%;
+}
+
+.derechosFinal{
+    padding: 15px 0px;
+}
