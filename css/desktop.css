@@ -3,21 +3,67 @@
         width: 90%;
     }
 
-    .phoneHeader{
+    .containerHeader > nav{
         display: block;
     }
 
-    .shop{
+    .bag{
         display: block;
     }
 
-    .shop button{
-        height: 4.4vh;
-        padding: 0px 10px;
-        background-color: transparent;
-        border: 2px solid #3a3a3a;
-        border-radius: 5px;
-        cursor: pointer;
+    .hamburgerMenu{
+        width:auto;
+        padding: 2rem;
+    }
+
+    .containerHamburgerContent{
+        width: auto;
+    }
+
+    .img img{
+        height: 15vh;
+    }
+
+    .section{
+        width: 50%;
+    }
+
+    .footerHamburgerContainer{
+        width: auto;
+    }
+
+    .infoPersonal{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .text{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        text-transform: uppercase;
+        padding: 30px 0;
+    }
+    
+    .navInfoPersonal{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .navInfoPersonal > a {
+        text-decoration: none;
+        font-size: 1.188em;
+        font-weight: 500;
+        color: #c6c6c6;
+        transition: all 0.3s ease;
+    }
+    
+    
+    .navInfoPersonal > a:hover{
+        color: #000;
+        transition: all 0.3s ease;
     }
 
     .title{
@@ -44,7 +90,6 @@
         padding: 4px 10px;
         cursor: pointer;
         transition: all 0.3s ease;
-        position: relative;
         display: inline-block;
         outline: none;
         border-radius: 5px;
@@ -53,6 +98,18 @@
         display: flex;
         align-items: center;
         gap: 0.5rem;
+    }
+
+    .btnCategoryTwo:hover{
+        color: #b8b8b8;
+        border: 2px solid #b8b8b8;
+        transition: all 0.3s ease;
+    }
+
+    .btnCategoryTwo:focus{
+        color: #b8b8b8;
+        border: 2px solid #b8b8b8;
+        transition: all 0.3s ease;
     }
 
     .productOne{
