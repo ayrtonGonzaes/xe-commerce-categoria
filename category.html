@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/category.css">
     <link rel="stylesheet" href="./css/tablet.css">
     <link rel="stylesheet" href="./css/desktop.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +15,7 @@
 </head>
 <body>
     
-    <header>
+    <header data-aos="fade-down">
 
         <div class="alert">
             <button class="headerExclusive">App exclusiva 33% off <i class="bi bi-arrow-right arrowRight"></i></button>
@@ -250,7 +251,7 @@
 
                 <div class="infoPersonal">
 
-                    <div class="text">
+                    <div class="text" data-aos="fade-right">
                         <nav class="navInfoPersonal">
                             <a href="#">Inicio <i class="bi bi-arrow-right"></i></a>
                             <a href="#">Catalogo <i class="bi bi-arrow-right"></i></a>
@@ -258,14 +259,14 @@
                         <h3>Zapatos </h3>
                     </div>
 
-                    <div class="title">
+                    <div class="title" data-aos="fade-left">
                         <h2>Zapatos</h2>
                     </div>
                 </div>
 
                 <hr>
 
-                <div class="usernameTitle">
+                <div class="usernameTitle" data-aos="zoom-in">
                     <h1> Camperas  Pantalones <span class="titleSpecial">Zapatos</span> tops capuchas</h1>
                 </div>
 
@@ -274,11 +275,11 @@
 
                 <div class="headerImg">
 
-                    <div class="textCategory">
+                    <div class="textCategory" data-aos="fade-right">
                         <p>Todos los articulos (121)</p>
                     </div>
 
-                    <div class="buttonCategoryContainer">
+                    <div class="buttonCategoryContainer" data-aos="fade-left">
 
                         <button class="btnCategoryOne"><i class="bi bi-filter-left"></i> Filtros</button>
 
@@ -290,7 +291,7 @@
 
                 <div class="productOne">
 
-                    <div class="containerSmallProduct">
+                    <div class="containerSmallProduct" data-aos="fade-right">
 
                         <div class="smallProductOne">
 
@@ -377,7 +378,7 @@
 
                     </div>
 
-                    <div class="containerBigProduct">
+                    <div class="containerBigProduct" data-aos="fade-left">
 
                         <img src="img/tom-sodoge-3vAdYH9FfG0-unsplash.jpg" alt="">
                         
@@ -402,7 +403,7 @@
 
                 <div class="productTwo">
 
-                    <div class="containerBigProduct">
+                    <div class="containerBigProduct" data-aos="fade-right">
                         <img src="img/tom-sodoge-3vAdYH9FfG0-unsplash.jpg" alt="">
                         
                         <div class="infoSmallP">
@@ -421,7 +422,7 @@
                     </div>
 
 
-                    <div class="containerSmallProduct">
+                    <div class="containerSmallProduct" data-aos="fade-left">
 
                         <div class="smallProductOne">
 
@@ -511,7 +512,7 @@
                 </div>
 
 
-                <div class="containerCounter">
+                <div class="containerCounter" data-aos="fade-up">
                     <div class="link">
                         <a href="#">Atras</a>
                     </div>
@@ -545,7 +546,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer data-aos="fade-up">
         <div class="containerFooter">
         
             <div class="infoFooter">
@@ -605,6 +606,15 @@
 </footer>
 
 <script src="./js/category.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init({
+        duration:1500,
+        once:true
+    });
+</script>
 
 </body>
 </html>
